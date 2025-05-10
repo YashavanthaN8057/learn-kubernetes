@@ -10,9 +10,7 @@ spec:
   - name: busybox
     image: busybox:latest
     command: ['sh', '-c', 'echo Hello Kubernetes! && sleep 3700'] 
-    ports:
-    - containerPort: 90
-      protocol: TCP
+
 --- 
 
 apiVersion: v1
